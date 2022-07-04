@@ -103,6 +103,11 @@ body {
   width: 100%;
 }
 
+.boton-formulario a {
+  text-decoration: none;
+  color: white;
+}
+
 @media (min-width: 361px) {
   .main-header-top-bar {
     display: flex;
