@@ -256,4 +256,20 @@ main section article {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  .ultima-visita,
+  .ofertas {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: flex-start;
+  }
+
+  .product-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    position: relative;
+    width: 25%;
+  }
 }
