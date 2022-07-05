@@ -1,11 +1,12 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const port = process.env.PORT || 3030;
 
 app.use(express.static('public'));
 
-app.listen(process.env.PORT || 3030, () => {
-  console.log('Listening on port 3030');
+app.listen(port, () => {
+  console.log('Listening on port ', port);
 });
 
 app.get('/', (req, res) => {
