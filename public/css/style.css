@@ -139,6 +139,13 @@ main section article {
   position: relative;
 }
 
+.descuento {
+  color: #39b54a;
+  position: relative;
+  left: 80px;
+  bottom: 20px;
+}
+
 @media (min-width: 361px) {
   .main-header-top-bar {
     display: flex;
@@ -167,11 +174,10 @@ main section article {
   }
 
   .copy-header {
-    max-width: 250px;
+    /* max-width: 250px; */
     text-align: right;
     font-size: 18px;
     margin: 0;
-    max-width: none;
   }
   .burguer-menu {
     display: none;
